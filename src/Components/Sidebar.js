@@ -39,8 +39,8 @@ export const Sidebar = () => {
             <h3 className="my-10">Filter</h3>
             <div className="flex-col">
                 {
-                    brands.map(brand => (
-                        <label>
+                    brands.map((brand, index) => (
+                        <label key={index}>
                             <input 
                                 type="checkbox" 
                                 name={brand} 
@@ -54,8 +54,8 @@ export const Sidebar = () => {
             
             <h3 className="my-10">Ideal for</h3>
             <div className="flex-col">
-                {idealFor.map(gender => (
-                    <label>
+                {idealFor.map((gender, index) => (
+                    <label key={index}>
                         <input 
                             type="radio" 
                             name="gender"

@@ -123,7 +123,7 @@ export const productList =  {
         },
 
         {
-            id: "134",
+            id: "135",
             image: "https://rukminim2.flixcart.com/image/580/696/kj1r53k0-0/t-shirt/x/h/v/l-t335hs-pg-seven-rocks-original-imafypgeujgfbuxr.jpeg?q=50",
             brand: "Basics",
             description: "Tshirt",
